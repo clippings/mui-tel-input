@@ -3,7 +3,7 @@ import InputAdornment from '@mui/material/InputAdornment'
 import TextField from '@mui/material/TextField'
 import FlagButton from './components/FlagButton/FlagButton'
 import FlagsMenu from './components/FlagsMenu/FlagsMenu'
-import type {
+import {
   MuiTelInputContinent,
   MuiTelInputCountry,
   MuiTelInputInfo,

@@ -2,7 +2,7 @@ import React from 'react'
 // @ts-ignore
 import unknownFlag from '../../assets/unknown-flag.png'
 import { FlagSize } from '../../index.types'
-import type { MuiTelInputCountry } from '../../shared/constants/countries'
+import { MuiTelInputCountry } from '../../shared/constants/countries'
 import { FLAGS_SVG } from '../../shared/constants/flags'
 import { Styled } from './Flag.styled'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Menu, { MenuProps } from '@mui/material/Menu'
 import FlagMenuItem from '../../components/FlagMenuItem/FlagMenuItem'
 import { FlagSize } from '../../index.types'
-import type { MuiTelInputContinent } from '../../shared/constants/continents'
+import { MuiTelInputContinent } from '../../shared/constants/continents'
 import { ISO_CODES, MuiTelInputCountry } from '../../shared/constants/countries'
 import { DEFAULT_LANG } from '../../shared/constants/lang'
 import {
