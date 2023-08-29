@@ -1,11 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { MuiTelInputCountry } from '@shared/constants/countries'
 import {
   fireEvent,
   screen,
   waitForElementToBeRemoved
 } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+import { MuiTelInputCountry } from './../shared/constants/countries'
 
 export function getInputElement(): HTMLInputElement {
   return screen.getByRole('textbox')

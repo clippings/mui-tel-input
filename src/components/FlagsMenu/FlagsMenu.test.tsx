@@ -1,7 +1,7 @@
 import React from 'react'
 import { expect, vi } from 'vitest'
-import { ISO_CODES, MuiTelInputCountry } from '@shared/constants/countries'
 import { fireEvent, render, screen } from '@testing-library/react'
+import { ISO_CODES, MuiTelInputCountry } from '../../shared/constants/countries'
 import FlagsMenu from './FlagsMenu'
 import '@testing-library/jest-dom'
 

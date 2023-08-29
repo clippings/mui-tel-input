@@ -1,17 +1,8 @@
 import React from 'react'
-import FlagButton from '@components/FlagButton/FlagButton'
-import FlagsMenu from '@components/FlagsMenu/FlagsMenu'
 import InputAdornment from '@mui/material/InputAdornment'
 import TextField from '@mui/material/TextField'
-import {
-  getCallingCodeOfCountry,
-  getValidCountry
-} from '@shared/helpers/country'
-import { putCursorAtEndOfInput } from '@shared/helpers/dom'
-import { assocRefToPropRef } from '@shared/helpers/ref'
-import { removeOccurrence } from '@shared/helpers/string'
-import { useMismatchProps } from '@shared/hooks/useMissmatchProps'
-import usePhoneDigits from '@shared/hooks/usePhoneDigits'
+import FlagButton from './components/FlagButton/FlagButton'
+import FlagsMenu from './components/FlagsMenu/FlagsMenu'
 import type {
   MuiTelInputContinent,
   MuiTelInputCountry,
@@ -19,6 +10,15 @@ import type {
   MuiTelInputProps,
   MuiTelInputReason
 } from './index.types'
+import {
+  getCallingCodeOfCountry,
+  getValidCountry
+} from './shared/helpers/country'
+import { putCursorAtEndOfInput } from './shared/helpers/dom'
+import { assocRefToPropRef } from './shared/helpers/ref'
+import { removeOccurrence } from './shared/helpers/string'
+import { useMismatchProps } from './shared/hooks/useMissmatchProps'
+import usePhoneDigits from './shared/hooks/usePhoneDigits'
 
 export {
   AsYouType,

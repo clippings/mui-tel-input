@@ -1,8 +1,8 @@
 import React from 'react'
-import unknownFlag from '@assets/unknown-flag.png'
-import type { MuiTelInputCountry } from '@shared/constants/countries'
-import { FLAGS_SVG } from '@shared/constants/flags'
+import unknownFlag from '../../assets/unknown-flag.png'
 import { FlagSize } from '../../index.types'
+import type { MuiTelInputCountry } from '../../shared/constants/countries'
+import { FLAGS_SVG } from '../../shared/constants/flags'
 import { Styled } from './Flag.styled'
 
 export type FlagProps = {

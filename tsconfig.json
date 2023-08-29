@@ -15,12 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./src",
-    "paths": {
-      "@assets/*": ["assets/*"],
-      "@shared/*": ["shared/*"],
-      "@components/*": ["components/*"]
-    }
+    "baseUrl": "./src"
   },
   "include": ["src/**/*"],
   "exclude": ["vite.config.ts", "coverage", "dist"],

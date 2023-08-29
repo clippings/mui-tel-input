@@ -1,5 +1,5 @@
 import { expect } from 'vitest'
-import { MuiTelInputCountry } from '@shared/constants/countries'
+import { MuiTelInputCountry } from '../../constants/countries'
 import { filterCountries, sortAlphabeticallyCountryCodes } from '../country'
 
 const COUNTRIES: readonly MuiTelInputCountry[] = ['FR', 'BE', 'US', 'VE']

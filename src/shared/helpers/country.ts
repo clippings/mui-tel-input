@@ -1,10 +1,10 @@
-import { CONTINENTS, MuiTelInputContinent } from '@shared/constants/continents'
+import { CONTINENTS, MuiTelInputContinent } from '../constants/continents'
 import {
   COUNTRIES,
   DEFAULT_ISO_CODE,
   MuiTelInputCountry
-} from '@shared/constants/countries'
-import { matchIsArray } from '@shared/helpers/array'
+} from '../constants/countries'
+import { matchIsArray } from '../helpers/array'
 
 type FilterCountriesOptions = {
   onlyCountries?: readonly MuiTelInputCountry[]

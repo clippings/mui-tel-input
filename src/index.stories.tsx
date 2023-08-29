@@ -1,8 +1,8 @@
 import React from 'react'
-import { ISO_CODES } from '@shared/constants/countries'
 import { action } from '@storybook/addon-actions'
 import { Meta, StoryFn } from '@storybook/react'
 import { MuiTelInput, MuiTelInputProps } from './index'
+import { ISO_CODES } from './shared/constants/countries'
 
 export default {
   title: 'MuiTelInput',

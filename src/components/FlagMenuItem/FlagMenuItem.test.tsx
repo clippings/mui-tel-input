@@ -1,7 +1,7 @@
 import React from 'react'
 import { vi } from 'vitest'
-import { getDisplayNames } from '@shared/helpers/intl'
 import { fireEvent, render, screen } from '@testing-library/react'
+import { getDisplayNames } from '../../shared/helpers/intl'
 import FlagMenuItem from './FlagMenuItem'
 import '@testing-library/jest-dom'
 

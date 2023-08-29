@@ -1,9 +1,9 @@
 import React from 'react'
-import Flag from '@components/Flag/Flag'
 import MenuItem, { MenuItemProps } from '@mui/material/MenuItem'
 import Typography from '@mui/material/Typography'
-import { COUNTRIES, MuiTelInputCountry } from '@shared/constants/countries'
+import Flag from '../../components/Flag/Flag'
 import { FlagSize } from '../../index.types'
+import { COUNTRIES, MuiTelInputCountry } from '../../shared/constants/countries'
 import { Styled } from './FlagsMenuItem.styled'
 
 export type FlagMenuItemProps = MenuItemProps & {

@@ -1,5 +1,5 @@
 import metadatas from 'libphonenumber-js/metadata.min.json'
-import { getKeys } from '@shared/helpers/object'
+import { getKeys } from '../../shared/helpers/object'
 
 export const COUNTRIES = metadatas.countries
 

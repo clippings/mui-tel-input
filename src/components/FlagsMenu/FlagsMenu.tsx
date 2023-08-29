@@ -1,15 +1,15 @@
 import React from 'react'
-import FlagMenuItem from '@components/FlagMenuItem/FlagMenuItem'
 import Menu, { MenuProps } from '@mui/material/Menu'
-import type { MuiTelInputContinent } from '@shared/constants/continents'
-import { ISO_CODES, MuiTelInputCountry } from '@shared/constants/countries'
-import { DEFAULT_LANG } from '@shared/constants/lang'
+import FlagMenuItem from '../../components/FlagMenuItem/FlagMenuItem'
+import { FlagSize } from '../../index.types'
+import type { MuiTelInputContinent } from '../../shared/constants/continents'
+import { ISO_CODES, MuiTelInputCountry } from '../../shared/constants/countries'
+import { DEFAULT_LANG } from '../../shared/constants/lang'
 import {
   filterCountries,
   sortAlphabeticallyCountryCodes
-} from '@shared/helpers/country'
-import { getDisplayNames } from '@shared/helpers/intl'
-import { FlagSize } from '../../index.types'
+} from '../../shared/helpers/country'
+import { getDisplayNames } from '../../shared/helpers/intl'
 
 export type FlagsMenuProps = Partial<MenuProps> & {
   isoCode: MuiTelInputCountry | null
